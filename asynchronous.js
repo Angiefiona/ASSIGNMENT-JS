@@ -32,7 +32,7 @@ function performTask() {
     console.log('Task completed successfully:', resolve);
   }, (error) => {
     console.error('Task not completed:', error);
-//   });
+   });
   console.log({promise});
-// }
+ }
 performTask();
